@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+    background-image: url("img/pallete.jpeg");
+}
+header{
+    background-image: url("img/cover6.png");
+    background-repeat: repeat-x;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.avatar{
+    width: 400px;
+    border-radius: 500px;
+    border-width: 20px;
+}
+.logo{
+	height: 200px;
+}
+main{
+    margin: 0 auto;
+    padding: 0 50px 0px 50px
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+    font-size: 50x;
+    color: #e0218a;
+}
+p, ul{
+  font-family: 'Raleway', sans-serif;  
+  color: #582876;
+}
+.boxA{
+    border: 1px ;
+    max-width: 800px;
+    height: 400px;
+    background-color: white;
+    padding: 50px 90px 90px 50px;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.p{
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 500px 1fr;
+    gap: 3rem;
+    align-items: left;
+    max-width: 800px;
+    margin: 0 auto;
+    float: left;
+}
+.c7{
+    float: right;
+}
+.figcaption{
+    border: 1px ;
+    padding: 10px 20px;
+    max-width: 300px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white; 
+    color: #582876;
+    font-family: 'Raleway', sans-serif;  
+}
+.gif{
+    width: 300px;
+    border-radius: 300px;
+    border-width: 500px;
+}
+.boxB{
+    border: 1px ;
+    max-width: 800px;
+    height: 700px;
+    background-color: white;
+    padding: 40px 50px 140px 50px;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.boxC{
+    border: 1px ;
+    max-width: 800px;
+    height: 2000px;
+    background-color: white;
+    padding: 40px 50px 150px 50px;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #F8C1AC;
+    background-color: #DB61B1;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 31%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    padding-top:20px;
+    background-color: #FBF1CB;
+}
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer{
+    background-color: #582876;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;  
+}
+h3, h4{
+    color: #DB61B1; 
+    font-family: 'Raleway', sans-serif;
+}
+.img{
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+footer a{
+    color: deeppink;
+}
+.friends{
+    width: 20px;
+    height: 150px;
+}
